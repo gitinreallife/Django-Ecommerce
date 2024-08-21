@@ -5,7 +5,7 @@ ENVIRONMENT = os.getenv('ENVIRONMENT', 'development')
 DEBUG = True
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '-05sgp9!deq=q1nltm@^^2cc+v29i(tyybv3v2t77qi66czazj'
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','ec2-18-118-27-46.us-east-2.compute.amazonaws.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','ec2-43-218-122-23.ap-southeast-3.compute.amazonaws.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
